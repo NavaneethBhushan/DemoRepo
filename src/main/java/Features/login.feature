@@ -1,4 +1,4 @@
-Feature:  CRM login feature
+Feature:  CRM login feature with GIT
 Scenario: CRM login test scenario
 
 Given Page Title is CRM
