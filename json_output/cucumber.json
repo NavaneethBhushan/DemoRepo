@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8959871300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login_stepdefinition.setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "CRM login test scenario",
+        "description": "",
+        "id": "crm-login-feature;crm-login-test-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 1685266300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login_stepdefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 161959500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Page Title is CRM",
+            "match": {
+              "location": "login_stepdefinition.page_Title_is_CRM()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 356040700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters username and password",
+            "match": {
+              "location": "login_stepdefinition.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5823800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user to validate home page",
+            "match": {
+              "location": "login_stepdefinition.user_to_validate_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CRM login feature",
+    "description": "",
+    "id": "crm-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/Navaneeth Bhushan/eclipse-workspace/Maven_Cucumber_1/src/main/java/Features/login.feature"
+  }
+]
